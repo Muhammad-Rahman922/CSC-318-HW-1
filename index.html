@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- *Metadata goes in here -->
+    <title>Spike Spiegel Tribute</title>
+
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: black; /* Set dark mode background color */
+      color: white; /* Set dark mode text color */
+      }
+      
+      h1 {
+        text-align: center;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      
+      .image {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .content {
+        line-height: 1.5;
+        text-align: justify;
+      }
+      
+      /* Dark mode styles */
+      body.light-mode {
+        background-color: white;
+        color: black;
+      }
+      
+      body.dark-mode .content a {
+        color: lightblue; /* Example link color in dark mode */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Spike Spiegel Tribute</h1>
+      <div class="image">
+        <img src="images\spike.jpg" alt="Spike Spiegel" width="500" height="600">
+      </div>
+      <div class="content">
+        <h1>Content</h1>
+        <ul>
+          <li>History</li>
+          <li>Appearance</li>
+          <li>Personality</li>
+          <li>Sources</li>
+        </ul>
+
+        <h2>History</h2>
+        <p>
+          Spike Spiegal is 27 years old during the series and was born on June 26, 2044, on the planet Mars. Nothing much is ever revealed about his childhood or even his family, apart from his grandmother dying before he was born. Some fans speculate he was an orphan and that his parents died while he was young.
+        </p>
+        
+        <p>
+          We might not know much about his young upbringing, but we do know some things about his past. It can be assumed that he was raised in the slums of Mars and that he soon became a thief. He then went on to become a fully fledged criminal by becoming affiliated with the Red Dragon Crime Syndicate. There, the head of the criminal syndicate, Mao Yenrai, took Spike as a sort of apprentice. Spike eventually comes to see the syndicate as a makeshift family, and due to his skills, he becomes one of the top men the syndicate in a short time. He does so well, in fact, that many members come to see him as the next leader. He loses his right eye in an unknown accident, which occurred in a mission on behalf of the Red Dragon, after which he was implanted an artificial eye.
+        </p>
+
+        <h2>Appearance</h2>
+        <p>
+          Spike can be described as tall and lean in appearance. The author of Cowboy Bebop, of which Spike is one of the main characters, has stated that Spike has dark green hair. He also has brown eyes, one of which is artificial and is a fully functioning cybernetic eye. It is also lighter in color compared to his actual eye. 
+        </p>
+        
+        <p>
+          Spike is usually seen dressed in a blue leisure suit, with a yellow shirt and boots reminiscent of another popular character from a different series, Lupin III. He’s also known to wear a long brown trench coat. He’s often seen with a cigarette no matter the circumstance, whether it be raining or even if there's clearly a 'No Smoking' sign where he is located. His constant smoking is another Lupin III reference, this time referring to Lupin's partner, Jigen, who also smokes cigarettes constantly.
+        </p> 
+
+        <h2>Personality</h2>
+        <p>
+          <i>"Look at my eyes, Faye. One of them is a fake because I lost it in an accident. Since then, I’ve been seeing the past in one eye and the present in the other. So, I thought I could only see patches of reality, never the whole picture."</i> <br> <sub>---Spike talking about his artifical eye</sub>
+        <p>Spike can be described as slothful, nonchalant, indifferent, and lazy. When he’s not doing his job as a bounty hunter, he can be seen spending most of his time on his ship, the Bebop, lounging, watching TV, or sleeping. Despite this, he’s also seldom seen practicing Jeet Kune Do, a martial arts practice he's very skilled in. This leads into one of his few passions, Bruce Lee and his philosophies. For example, he follows Lee's "water" analogy for his style of fighting. He’s also a hardened smoker, smoking a cigarette in nearly every shot he’s in. He’s also known to be somewhat impatient and has stated several times that he hates dogs, children, and women with attitudes, and is anything but happy when each one of the three joins the Bebop. As the series progressed, he warmed up to these members of his crew, all of which fall in the category of the three things he particularly hates. </p>
+        <p>Spike usually behaves phlegmatically. He appears to be tormented by the ghosts of his past and has frequent nightmares of his previous criminal life. He considers he already died once and therefore doesn't often show fear at the possibility of being killed, often acting as if to challenge death. This leads into one of the most vital themes of the series. That being, how Spike views himself and his life. Following the implant of an artificial eye, he says his left eye, the real one, sees the past while the synthetic right eye sees the present. This makes the past unforgettable and inescapable in his mind, not allowing him to get rid of or forget about it. Despite that, he usually encourages others to forget the past as "not important." Spike's star sign is Cancer, which fits with his inability to let go of the past.</p>
+        
+        <a href="https://cowboybebop.fandom.com/wiki/Spike_Spiegel" target="_blank">Click here to learn more</a><br>
+
+        
+        <button onclick="redirectToFormPage()">Click here to join the Fanclub</button>
+
+        <script>
+          function toggleDarkMode() {
+            document.body.classList.toggle('light-mode');
+          }
+
+          function redirectToFormPage() {
+            window.location.href = "secret_page.html";
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
